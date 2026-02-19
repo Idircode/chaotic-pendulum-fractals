@@ -37,20 +37,18 @@ This project aims to:
 ## Clone the Project
 
 ```bash
-git clone git@gitlab-research.centralesupelec.fr:hugo.charles/rk4.git
-cd rk4
+git clone https://github.com/idircode/chaotic-pendulum-fractals.git
+cd chaotic-pendulum-fractals
 ```
 
 ---
 
 ## Project Structure
 ```
-rk4/                       
-├── double_pendulum/              # Main source code package
-│   ├── __pycache__/              # Python cache (ignored)
+chaotic-pendulum-fractals/                       
+├── src/              # Main source code package
 │   ├── animations/               # Saved animations (if any)
-│   ├── illustrations/            # Images used in the README/presentation
-│   ├── __init__.py               # Package initializer
+│   ├── illustrations/            # Images used in the oral presentation 
 │   ├── animation.py              # Generates animations from a pendulum matrix
 │   ├── bifurcation_diagram.py    # Bifurcation diagram generation (classic & optimized)
 │   ├── constants.py              # Global constants (timestep, colors, display scale…)
@@ -65,7 +63,6 @@ rk4/
 │   └── test_pendulum.py          # Tests: energy, RK4 stability, init, setters, bifurcation…
 │
 ├── README.md                     # Project description
-├── TODO.md                       # Remaining tasks / improvements
 └── requirements.txt              # Python dependencies
 
 ```
