@@ -1,0 +1,8 @@
+numpy==2.3.4
+matplotlib==3.10.7
+ttkbootstrap==1.18.2
+imageio==2.37.2
+colormap2d==0.2.0
+pytest==8.3.3
+
+
